@@ -1,0 +1,57 @@
+:focus {
+  outline-style: dotted;
+  outline-width: thick;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vmin + 2vmax);
+}
+
+body {
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+article {
+  line-height: 1.5;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+menu {
+  list-style: circle;
+  padding-inline-start: 1em;
+}
+
+li {
+  margin-block-start: .5ex;
+  margin-block-end: .5ex;
+}
+
+dfn,
+mark {
+  border-radius: 1ex;
+  display: inline-block;
+  font: inherit;
+  padding-inline-start: 1ex;
+  padding-inline-end: 1ex;
+  margin-block-end: 1ex;
+}
+
+h1 {
+  display: inline;
+  font: inherit;
+}
+
+h2 {
+  font: inherit;
+  margin: 0;
+  font-family: monospace;
+  font-size: .67em;
+}

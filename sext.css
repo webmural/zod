@@ -1,0 +1,33 @@
+::selection {
+  background: black;
+  color: hotpink;
+}
+
+:root {
+  color: #000143;
+  background: violet;
+}
+
+:any-link {
+  color: #000143;
+  text-decoration-style: wavy;
+}
+
+dfn,
+mark {
+  color: #000143;
+  background: deeppink;
+}
+
+@media (prefers-contrast: more) {
+  dfn,
+  mark {
+    background: thistle;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: hotpink;
+  }
+}
